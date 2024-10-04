@@ -1,0 +1,16 @@
+.searchBar {
+  animation: slide-in 0.4s ease-in-out;
+}
+
+.searchBar::-webkit-scrollbar {
+  display: none;
+}
+
+@keyframes slide-in {
+  0% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
